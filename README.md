@@ -1,58 +1,32 @@
-# FlashCards Starter Kit
+# Flashcards!
+## ABSTRACT
+This repo contains a flashcard game playable in your console. The content consists of the study meterials gone over through the forst week of Mod 2 at turing School of Software and design. This includes protoptye methods, along with other JavaScript concepts. The game provides the user with a series of flashcards, each turn shows the quetion on the flashcard, along with answer options. The user can choose their guess. If their guess is correct, they can move along to the next flashcard question. If incorrect, they are propmted to answer the same question. Once all the flashcards are answered correctly, the game ends and provides the percentage of correct answers given by the user. 
 
-## Fork This Repo
+## INSTALLATION INSTRUCTIONS
+- Fork this repository
+- Clone down your new, forked repo
+- cd into the repository
+- Open it in your text editor
+- Run the game in your terminal with node index.js
+​
+## PREVIEW OF APP
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/123966150/234424658-52f065bf-bd9d-458d-9a55-dedb09db1136.gif)
 
-On the top right corner of this page, click the **Fork** button.
+## CONTEXT
+I am a front end engineering student at Turing, this is my firsy solo project as required of Mod 2 of the program. The project took two days to complete. 
 
-## Setup
+## CONTRIBUTORS
+[Paulina Rubio](https://github.com/paulina-isabel)
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+## LEARNING GOALS
+- Demonstrate and exercise my knowldge of Test Driven Development using the Mocha testing framework and Chai assertion library.
+- Solidify and demonstrate my understanding of DRY JavaScript.
+- Use my problem solving procesesses to break down large problems, solve things step by step, and trust myself to not rely on an outside "answer" to a logical challenge. 
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+## WINS + CHALLENGES
+### Wins:
+- Expanding my practice and understanding of TDD, Mocha, and Chai. 
+- Manipulating JavaScript with new methods. 
 
-Once you have cloned the repo, change into the directory and install the library dependencies using the command:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have skipped tests in your `card` test file show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run this file until you are running your `game` file in Iteration 3. Prior to that, you should strive to use TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-**Create all of your feature code files in the `src` directory.** Use the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to run the `node index.js` command in your terminal to run the game.
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `card-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
+### Challenges
+- Working with and writing my own tests.
