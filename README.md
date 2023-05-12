@@ -10,7 +10,7 @@ This repo contains a flashcard game playable in your console. The content consis
 - Run the game in your terminal with node index.js
 ​
 ## PREVIEW OF APP
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/123966150/234424658-52f065bf-bd9d-458d-9a55-dedb09db1136.gif)
+![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/123966150/237848804-9c7f37d4-3697-4e39-930f-a679fba091ef.gif)
 
 ## CONTEXT
 I am a front end engineering student at Turing, this is my firsy solo project as required of Mod 2 of the program. The project took two days to complete. 
