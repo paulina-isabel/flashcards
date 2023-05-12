@@ -1,9 +1,6 @@
-// const { prototype } = require('mocha');
 const { createCard } = require('./card');
 const { createDeck, countCards } = require('./deck');
 const { createRound } = require('./round');
-
-// already in game file beforehand
 const data = require('./data');
 const prototypeQuestions = data.prototypeData;
 const util = require('./util');
@@ -17,7 +14,6 @@ function printQuestion(round) {
   util.main(round);
 }
 
-// new code
 function start() {
   let cards = []
   prototypeQuestions.forEach(card => {
@@ -29,7 +25,6 @@ function start() {
     cards.push(newCard)
   })
   deck = createDeck(cards)
-  // console.log(deck)
   let round = createRound(deck)
   printMessage(deck)
   printQuestion(round)
